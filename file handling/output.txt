@@ -1,0 +1,3 @@
+Element: 1, Count: 3, Indices: [0, 3, 6]
+Element: 2, Count: 3, Indices: [1, 4, 7]
+Element: 3, Count: 3, Indices: [2, 5, 8]
