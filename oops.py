@@ -34,9 +34,10 @@ class User:
     
 class Admin(User):
     def __init__(self, name, mail, password, total_income, total_user_count):
-        self.name = name
-        self.mail = mail
-        self.password = password
+        # self.name = name
+        # self.mail = mail
+        # self.password = password
+        super().__init__(name, mail, password)
         self.total_income = total_income
         self.total_users = total_user_count
     def details(self):
